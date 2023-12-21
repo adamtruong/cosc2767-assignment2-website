@@ -32,7 +32,7 @@
 
       <!-- You only need to change these information, starts here! -->
       <p>Here is the information you need to change:</p>
-      <span class="badge badge-primary">Your name</span>
+      <span class="badge badge-primary">Truong Adam Nhat Anh</span>
       <br>
       <span class="badge badge-secondary">s3926016</span>
       <br>
