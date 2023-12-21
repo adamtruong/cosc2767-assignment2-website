@@ -32,15 +32,15 @@
 
       <!-- You only need to change these information, starts here! -->
       <p>Here is the information you need to change:</p>
-      <span class="badge badge-primary">Truong Adam Nhat Anh</span>
+      <span class="badge badge-primary">Your name</span>
       <br>
-      <span class="badge badge-secondary">s3926016</span>
+      <span class="badge badge-secondary">Your student ID (sID)</span>
       <br>
-      <span class="badge badge-success">Information Technology</span>
+      <span class="badge badge-success">Your Major (and Minor if possible)</span>
       <br>
-      <span class="badge badge-danger">Video Games, Boxing, Violin and Coding!!!</span>
+      <span class="badge badge-danger">Your Hobby</span>
       <br>
-      <span class="badge badge-warning">Javascript</span>
+      <span class="badge badge-warning">Your Favouritate Programming Language</span>
       <!-- You only need to change these information, ends here! -->
       
 
