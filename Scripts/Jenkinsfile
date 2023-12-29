@@ -1,0 +1,33 @@
+//  RMIT University Vietnam
+//   Course: COSC2767 Systems Deployment and Operations
+//   Semester: 2022B
+//   Assessment: Assignment 2
+//   Author: Truong Adam Nhat Anh
+//   ID: s3926016
+//   Created  date: 27/12/2023
+//   Last modified: 29/12/2023
+//   Acknowledgement: Acknowledge the resources that you use here.
+pipeline {
+    agent any
+    tools {
+        maven 'maven 3.9.6'
+        git 'Git'
+    }
+    stages {
+        stage('Clone') {
+            steps {
+                git branch: 'main', url: 'https://github.com/adamtruong/COSC2767_Assignment2_Jekins_Docker_s3926016.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+        stage('Publish Dockerfile Over SSH') {
+            steps {
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'Docker-Admin', transfers: [sshTransfer(cleanRemote: false, excludes: '')])])
+            }
+        }
+    }
+}
