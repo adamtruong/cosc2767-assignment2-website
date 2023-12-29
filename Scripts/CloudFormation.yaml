@@ -37,7 +37,7 @@ Resources:
       InstanceType: t2.micro
       KeyName: s3926016_a2
       SecurityGroupIds:
-        - !Ref Tomcat_Security_Group
+        - !Ref Docker_Security_Group
   Docker_Security_Group:
     Type: AWS::EC2::SecurityGroup
     Properties:
