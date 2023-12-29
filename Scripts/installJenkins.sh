@@ -6,7 +6,7 @@
 #   ID: s3926016
 #   Created  date: 27/12/2023
 #   Last modified: 29/12/2023
-#   Acknowledgement: Acknowledge the resources that you use here. 
+#   Acknowledgement: 
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 sudo amazon-linux-extras install java-openjdk11 -y

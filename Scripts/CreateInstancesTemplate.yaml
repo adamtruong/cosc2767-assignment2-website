@@ -11,6 +11,9 @@ Resources:
   JenkinsServer:
     Type: AWS::EC2::Instance
     Properties:
+      Tags:
+        - Key: Name
+          Value: JenkinsServer
       ImageId: ami-00b8917ae86a424c9 # Amazon Linux 2 AMI (us-east-1)
       InstanceType: t2.micro
       KeyName: s3926016_a2
@@ -33,6 +36,9 @@ Resources:
   DockerServer:
     Type: AWS::EC2::Instance
     Properties:
+      Tags:
+        - Key: Name
+          Value: DockerServer
       ImageId: ami-00b8917ae86a424c9 # Amazon Linux 2 AMI (us-east-1)
       InstanceType: t2.micro
       KeyName: s3926016_a2

@@ -6,7 +6,7 @@
 #   ID: s3926016
 #   Created  date: 28/12/2023
 #   Last modified: 29/12/2023
-#   Acknowledgement: Acknowledge the resources that you use here.
+#   Acknowledgement:
 yum install docker -y
 useradd dockeradmin
 passwd dockeradmin
