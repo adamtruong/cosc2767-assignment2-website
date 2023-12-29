@@ -18,4 +18,4 @@ tar -xvzf apache-maven-3.9.6-bin.tar.gz
 mv apache-maven-3.9.6 maven
 cd ~
 service jenkins start
-cat /var/lib/jenkins/sercets/initialAdminPassword
+cat /var/lib/jenkins/secrets/initialAdminPassword

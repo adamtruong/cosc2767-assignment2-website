@@ -14,7 +14,7 @@ Resources:
       Tags:
         - Key: Name
           Value: JenkinsServer
-      ImageId: ami-00b8917ae86a424c9 # Amazon Linux 2 AMI (us-east-1)
+      ImageId: ami-00b8917ae86a424c9 # Amazon Linux 2 AMI 
       InstanceType: t2.micro
       KeyName: s3926016_a2
       SecurityGroupIds:
@@ -39,7 +39,7 @@ Resources:
       Tags:
         - Key: Name
           Value: DockerServer
-      ImageId: ami-00b8917ae86a424c9 # Amazon Linux 2 AMI (us-east-1)
+      ImageId: ami-00b8917ae86a424c9 # Amazon Linux 2 AMI 
       InstanceType: t2.micro
       KeyName: s3926016_a2
       SecurityGroupIds:
