@@ -9,7 +9,8 @@
 #   Acknowledgement:
 yum install docker -y
 useradd dockeradmin
-passwd dockeradmin
+echo "Enter password for dockeradmin:"
+sudo passwd dockeradmin
 usermod -aG docker dockeradmin
 nano /etc/ssh/sshd_config
 service sshd reload
