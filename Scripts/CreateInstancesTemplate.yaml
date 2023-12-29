@@ -8,7 +8,7 @@
 #   Last modified: 29/12/2023
 #   Acknowledgement: Acknowledge the resources that you use here.
 Resources:
-  Jenkins_Server_ad:
+  Jenkins_Server_1:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-00b8917ae86a424c9 # Amazon Linux 2 AMI (us-east-1)
@@ -30,7 +30,7 @@ Resources:
           ToPort: 22
           CidrIp: 0.0.0.0/0
 
-  Docker_Server_ad:
+  Docker_Server_1:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-00b8917ae86a424c9 # Amazon Linux 2 AMI (us-east-1)
