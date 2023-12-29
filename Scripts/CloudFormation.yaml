@@ -16,7 +16,6 @@ Resources:
       KeyName: s3926016_a2
       SecurityGroupIds:
         - !Ref Jenkins_Security_Group
-
   Jenkins_Security_Group:
     Type: AWS::EC2::SecurityGroup
     Properties:
@@ -39,7 +38,6 @@ Resources:
       KeyName: s3926016_a2
       SecurityGroupIds:
         - !Ref Tomcat_Security_Group
-
   Tomcat_Security_Group:
     Type: AWS::EC2::SecurityGroup
     Properties:
@@ -47,7 +45,7 @@ Resources:
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 8080
-          ToPort: 8080
+          ToPort: 8081
           CidrIp: 0.0.0.0/0
         - IpProtocol: tcp
           FromPort: 22

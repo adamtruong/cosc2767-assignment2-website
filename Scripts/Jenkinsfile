@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Publish Dockerfile Over SSH') {
             steps {
-                sshPublisher(publishers: [sshPublisherDesc(configName: 'Docker-Admin', transfers: [sshTransfer(cleanRemote: false, excludes: '')])])
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'Docker-Admin', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '', execTimeout:120000, )])])
             }
         }
     }
