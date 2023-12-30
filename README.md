@@ -17,5 +17,9 @@ https://github.com/adamtruong/COSC2767_Assignment2_Jekins_Docker_s3926016.git
 
 
 ### Video Demonstration & Presentation:
+#### Main Requirements:
 https://youtu.be/hn5PN5gd_DU?si=S83tYTtX5awCrJIW
+
+#### Advance Requirements:
+https://youtu.be/dWECD0CKl6Y?si=8YKXwK5quM6UpiZB
 
