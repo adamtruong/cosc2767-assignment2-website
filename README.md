@@ -12,3 +12,10 @@
   <img src="https://i.imgur.com/xt6DYL2.png">
 </p>
 
+### Github Repository:
+https://github.com/adamtruong/COSC2767_Assignment2_Jekins_Docker_s3926016.git
+
+
+### Video Demonstration & Presentation:
+https://youtu.be/hn5PN5gd_DU?si=S83tYTtX5awCrJIW
+
